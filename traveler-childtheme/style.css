@@ -1,0 +1,657 @@
+/*
+Theme Name:     Traveler Childtheme
+Description:    
+Author:         Shinetheme
+Template:       traveler
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../traveler/style.css");
+
+/* Show currency on mobile START*/
+@media screen and (max-width: 426px) {
+  #topbar .topbar-right {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #header #topbar .topbar-right .topbar-items > li {
+    display: none;
+  }
+}
+
+#header #topbar .topbar-right .topbar-items li a {
+  text-align: left;
+}
+/* Show currency on mobile END*/
+
+/* Footer currecny START*/
+
+footer#main-footer .footer-logo-cont .form-group {
+  display: none !important;
+}
+
+footer#main-footer .footer-logo-cont .form-group.mt30 {
+  display: block !important;
+  text-align: center;
+}
+footer#main-footer .footer-logo-cont .form-group.mt30 label {
+  color: #fff !important;
+  text-align: left;
+}
+
+@media screen and (max-width: 426px) {
+  footer#main-footer .footer-logo-cont .form-group.mt30 label {
+    text-align: center;
+  }
+}
+
+/* Footer currecny END */
+
+/* User template START */
+
+.user-banner {
+  position: relative;
+}
+
+.user-banner h1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #fff;
+}
+
+.main-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.user-nav {
+  margin-top: 30px;
+}
+
+.user-nav > li {
+  display: inline-block !important;
+}
+
+.user-nav > li > a {
+  color: #333;
+}
+
+#sidebar {
+  width: 20% !important;
+  display: inline-block;
+  float: left !important;
+}
+
+.st_content {
+  width: 80% !important;
+  display: inline-block !important;
+}
+.page-wrapper .page-content > .st_content {
+  border: 1px solid #ddd;
+  padding: 20px 40px;
+  min-height: 330px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-wrapper.toggled .page-content {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sidebar {
+    width: 100% !important;
+  }
+
+  .st_content {
+    width: 100% !important;
+  }
+
+  .sidebar-menu ul li {
+    margin-right: 0px !important;
+  }
+
+  .page-wrapper .page-content > .st_content {
+    padding: 10px !important;
+  }
+
+  .user-banner h1 {
+    top: 0 !important;
+  }
+}
+
+.user-pic {
+  width: 100px !important;
+  margin: 0 auto !important;
+}
+
+.sidebar-menu ul li {
+  padding: 10px;
+  border: 1px solid #dedede;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.sidebar-content .sidebar-header {
+  display: none !important;
+}
+body.page-template-template-user {
+  background: #fff !important;
+}
+body .page-wrapper {
+  background: #fff !important;
+}
+.page-wrapper .page-content {
+  background: #fff !important;
+}
+main.page-content .infor-st-setting {
+  padding: 0 !important;
+  margin-top: 0px !important;
+  background: #fff;
+}
+
+.st-create h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-template-template-user .page-content .st-create h2 {
+    margin-top: 30px !important;
+  }
+}
+
+.topbar-left .logo img {
+  max-width: 263px;
+}
+
+#header #topbar .st-list .dropdown-currency {
+  display: inline-block !important;
+}
+
+#header #topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: #1a2b48;
+}
+
+#header #topbar .socials {
+  display: inline-block;
+  border-right: 1px solid #374969;
+}
+
+#header #topbar .socials li a {
+  padding-left: 18px;
+  padding-right: 18px;
+  color: #d1d4da;
+  font-size: 14px;
+}
+
+#header #topbar .socials li:first-child a {
+  padding-left: 0;
+}
+
+#header #topbar .dropdown-menu .divider {
+  margin: 0px 0;
+  background-color: #31414a;
+}
+
+#header #topbar .topbar-items {
+  display: inline-block;
+}
+
+#header #topbar .topbar-items li {
+  padding-left: 18px;
+  padding-right: 18px;
+  display: inline-block;
+}
+
+#header #topbar .topbar-items li:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#header #topbar .topbar-items li a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#header #topbar .topbar-items li:last-child {
+  padding-right: 0px;
+}
+
+#header #topbar .topbar-left {
+  font-size: 14px;
+}
+
+#header #topbar .topbar-right {
+  font-size: 12px;
+}
+
+#header #topbar .topbar-right .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+#header #topbar .topbar-right .topbar-items li a {
+  font-size: 12px;
+}
+
+#header #topbar .topbar-right .topbar-items li:last-child {
+  padding-right: 0px;
+}
+
+#header #topbar .dropdown-menu {
+  min-width: auto;
+  background: #1a2b48;
+}
+
+#header #topbar .dropdown-menu li {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+#header #topbar .dropdown-menu li a {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: right;
+  color: #fff;
+}
+
+#header #topbar .dropdown-menu li a:hover {
+  background: #233448;
+}
+
+/* User tempalte END */
+
+/*Checkout Page */
+.woocommerce-checkout #payment ul.payment_methods {
+  display: none;
+}
+
+.checkout.woocommerce-checkout.st-woo-checkout-form {
+  margin-top: 50px !important;
+}
+
+.woocommerce-privacy-policy-text {
+  display: none !important;
+}
+
+.st-woo-checkout-form
+  .woocommerce-checkout-review-order-table
+  .booking-item-payment-details
+  li
+  .booking-item-payment-price {
+  padding-top: 10px !important;
+}
+
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section {
+  padding: 0px;
+  border-bottom: 1px solid #eaeef3;
+}
+
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul {
+  padding: 0;
+  margin: 0;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li {
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li span.label {
+  color: #1a2b48;
+  font-size: 100%;
+  width: 35%;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  white-space: normal;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li span.value {
+  justify-items: right;
+  font-size: 100%;
+  color: #5e6d77;
+  font-weight: 400;
+  float: right;
+  width: 65%;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li.ad-info {
+  margin-top: 10px;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li.ad-info ul {
+  background: #f5f5f5;
+  border-radius: 3px;
+  padding: 20px;
+  width: 100%;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li.ad-info ul li:last-child {
+  border: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li.ad-info ul li span.label {
+  color: #1a2b48;
+  font-size: 100%;
+  padding: 0;
+  width: 60%;
+  font-weight: 400;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .info-section ul li.ad-info ul li span.value {
+  justify-items: right;
+  font-size: 100%;
+  color: #5e6d77;
+  font-weight: 500;
+  width: 40%;
+  font-weight: 400;
+}
+
+.woocommerce-checkout-review-order-table.booking-item-payment .total-amount-section {
+  padding: 0px;
+  padding-top: 10px;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .total-amount-section ul {
+  padding: 0;
+  margin: 0;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .total-amount-section ul li {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 13px;
+  justify-content: space-between;
+}
+
+.woocommerce-checkout-review-order-table.booking-item-payment .total-amount-section ul li span.label {
+  color: #1a2b48;
+  font-size: 100%;
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+}
+.woocommerce-checkout-review-order-table.booking-item-payment .total-amount-section ul li span.value {
+  justify-items: right;
+  font-size: 100%;
+  color: #5e6d77;
+  font-weight: 400;
+}
+.woocommerce-checkout .woocommerce {
+  margin-top: 50px !important;
+}
+
+.installment-placeholder.iyzi-top.roller.active.iyzi-all-installment-section {
+  display: none !important;
+}
+
+.card-families-section {
+  display: none;
+}
+
+@media (min-width: 801px) {
+  #iyzipay-checkout-form {
+    width: 66% !important;
+  }
+  #originalPayButton {
+    width: 170px !important;
+  }
+}
+
+.order_details {
+  display: none !important;
+}
+input::placeholder {
+  font-size: 16px;
+}
+input.expiration.-ym-disable-keys::placeholder,
+.input.cvc-number.-ym-disable-keys::placeholder {
+  text-transform: uppercase;
+}
+#originalPayButton {
+  border-radius: 0 !important;
+  background: #25a4e5 !important;
+}
+#iyzipay-checkout-form {
+  clear: both;
+}
+
+#iyzipay-checkout-form .showPopup:after,
+.iyzi-form a.ode:after {
+  border: none !important;
+}
+.iyzi-form .iyzi-card-fields {
+  margin-bottom: 0 !important;
+}
+.extra-security-3d {
+  width: 130px !important;
+}
+
+.iyzi-form .iyzi-top,
+.iyzi-form .iyzi-middle,
+.iyzi-form .iyzi-left,
+.iyzi-form .iyzi-right {
+  border: 1px solid #ddd !important;
+  margin-bottom: 20px !important;
+  box-shadow: none !important;
+}
+.iyzi-form .iyzi-left {
+  margin-right: 5px;
+  width: 49% !important;
+}
+.iyzi-form .iyzi-right {
+  width: 49% !important;
+}
+
+.iyzi-form .bkm-explanation,
+.iyzi-form .iyzi-card-fields,
+.iyzi-form .extra-security-3d {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.responsive .iyzi-info-window.secure {
+  left: 135px !important;
+}
+.responsive .iyzi-info-window.secure .iyzi-arrow-info-window {
+  left: -10px !important;
+  transform: rotate(180deg) !important;
+}
+p#infoBox img {
+  width: 160px !important;
+  float: right;
+}
+p#infoBox {
+  display: inline-block;
+  width: 66%;
+  margin: 0;
+  color: #1a2b48;
+  font-size: 24px;
+  height: 50px;
+  font-weight: 500;
+  border-bottom: 2px solid #dae1e7;
+  margin-bottom: 30px;
+}
+
+p#infoBox span {
+  float: left;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 801px) {
+  p#infoBox {
+    width: 100%;
+  }
+
+  p#infoBox span {
+    float: none;
+  }
+  .mobile {
+    margin-top: 10px;
+  }
+}
+#iyzipay-checkout-form .iyzi-form input {
+  padding: 15px !important;
+}
+
+.iyzi-form .iyzi-ico {
+  display: none !important;
+}
+
+/* Checkout page End */
+
+/* Payment page */
+ul.order-payment-list.list.mb30 {
+  /* border: 1px solid #ddd;
+  width: 50%;
+  padding: 20px; */
+}
+
+.st-woo-thankyou-page .card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.wc-order-item-meta-list li {
+  font-weight: 600;
+}
+ul.wc-order-item-meta-list {
+  padding: 0 !important;
+}
+.wc-order-item-meta-list li {
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.invoice .wc-order-item-meta-list li:first-child {
+  display: none;
+}
+.date .wc-order-item-meta-list li:first-child {
+  display: block;
+}
+.date .wc-order-item-meta-list li:first-child .meta-label {
+  display: none;
+}
+
+.date .wc-order-item-meta-list li {
+  display: none;
+}
+.wc-order-item-meta-list li span.meta-label {
+  float: left;
+}
+.wc-order-item-meta-list li span.meta-data {
+  float: right;
+}
+
+.woocommerce table.shop_table {
+  border: none;
+}
+
+header.col-md-4 {
+  padding: 0;
+}
+.woocommerce table.shop_table tbody:first-child {
+  padding: 0;
+}
+.woocommerce table.shop_table tbody th {
+  padding: 0;
+}
+.woocommerce table.shop_table td {
+  /* border-top: 0px; */
+}
+
+.location-label,
+.duration-label {
+  font-weight: 700;
+  font-size: 16px;
+}
+.location,
+.duration {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.customer .wc-order-item-meta-list li:first-child {
+  display: block !important;
+}
+
+.order-item-meta-box.date .meta-data,
+.order-item-meta-box.customer .meta-data {
+  float: none;
+  font-weight: 500;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.invoice .wc-order-item-meta-list li ul li:first-child {
+  display: block !important;
+  float: right;
+  padding: 0px !important;
+}
+
+p.total span {
+  font-size: 28px !important;
+}
+
+#loadingBar .brand {
+  display: none;
+}
+
+.st-woo-thankyou-page .sb {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.st-woo-thankyou-page table {
+  width: 100% !important;
+}
+.st-woo-thankyou-page .personal-deatil tr {
+  border-bottom: 1px solid #ddd;
+}
+.st-woo-thankyou-page td {
+  padding: 5px 10px !important;
+  width: 50%;
+}
+.st-woo-thankyou-page tr:last-child {
+  border-bottom: none;
+}
+
+.st-woo-thankyou-page .total {
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.st-woo-thankyou-page .price-td {
+  font-weight: 500;
+}
+
+.st-woo-thankyou-page .price-td-value {
+  font-weight: 700;
+}
+
+.st-hotel-header .sub-heading > a {
+  color: #5e6d77;
+  margin-left: 5px;
+  font-size: 12px;
+}
